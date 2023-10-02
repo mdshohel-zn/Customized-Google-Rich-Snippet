@@ -1,0 +1,8 @@
+theme/beta/item.php
+
+ <!-- GOOGLE RICH SNIPPETS -->
+  <span itemscope itemtype="http://schema.org/Product">
+    <meta itemprop="name" content="<?php echo osc_esc_html(osc_item_title()); ?>" />
+    <meta itemprop="description" content="<?php echo osc_esc_html(osc_highlight(osc_item_description(), 500)); ?>" />
+    <?php if(osc_count_item_resources() > 0) { ?><meta itemprop="image" content="<?php echo osc_resource_url(); ?>" /><?php } ?>
+  </span>
