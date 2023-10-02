@@ -1,2 +1,2 @@
-# hoogle-rich-snippet
+# google-rich-snippet
 Powerful Google Rich Snippet Code
